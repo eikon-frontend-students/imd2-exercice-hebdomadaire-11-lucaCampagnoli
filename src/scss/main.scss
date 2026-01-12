@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
 }
 
 a {
@@ -11,4 +10,27 @@ a {
 img,
 video {
   display: block;
+}
+body {
+  display: flex;
+  align-items: center;
+  width: 1728px;
+  height: 1117px;
+  padding: 50px 1542px 1029px 50px;
+}
+.button {
+  color: red;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+
+  border-radius: 19px;
+  border: 2px solid #f00;
+  padding: 10px 20px;
+}
+.number {
+  color: #000;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
 }
